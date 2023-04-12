@@ -1,0 +1,17 @@
+.input-wrapper{
+    background: #3d3e44;
+    width: 35rem !important;
+    height: 3.5rem;
+    left: 50px;
+   
+   
+    input{
+        background: transparent;
+        color: #fff;
+        &:focus{
+            background: transparent;
+            color: #fff;
+            box-shadow: none;
+        }
+    }
+}
