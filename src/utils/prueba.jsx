@@ -1,5 +1,5 @@
 
-const Utils = () =>{
+
     const getNthPrime = (n) =>{
         if (n <= 0) return undefined;
         let count = 0;
@@ -28,8 +28,5 @@ const Utils = () =>{
         return true;
     }
 
-    return { getNthPrime, getNthMultipleOf3 };
+   export { getNthPrime, getNthMultipleOf3 };
 
-}
-
-export default Utils;
