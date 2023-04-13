@@ -28,7 +28,7 @@ const Utils = () =>{
         return true;
     }
 
-    return { getNthPrime, getNthMultipleOf3 };
+    return { getNthPrime, getNthMultipleOf3, isPrime };
 
 }
 

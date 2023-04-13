@@ -7,6 +7,7 @@ const Form = () =>{
     const [prime, setPrime] = useState("");
     const [multipleOf3, setMultipleOf3] = useState("");
     const utils = Utils();
+    console.log(utils.getNthPrime(2).toBe(3));
   
     const handleNChange = (event) =>{
       setN(event.target.value);

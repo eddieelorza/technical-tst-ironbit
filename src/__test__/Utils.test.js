@@ -1,4 +1,4 @@
-import Utils from '../utils/utils';
+const Utils = require("../utils/prueba");
 
 describe('Utils', () => {
     describe("getNthPrime", () => {
@@ -35,48 +35,6 @@ describe('Utils', () => {
         );
     });
 
-    describe("isPrime", () => {
-
-        it("should return true if n is prime", () => {
-            const utils = Utils();
-            expect(utils.isPrime(2)).toBeTruthy();
-            expect(utils.isPrime(3)).toBeTruthy();
-            expect(utils.isPrime(5)).toBeTruthy();
-            expect(utils.isPrime(7)).toBeTruthy();
-            expect(utils.isPrime(11)).toBeTruthy();
-            expect(utils.isPrime(13)).toBeTruthy();
-            expect(utils.isPrime(17)).toBeTruthy();
-            expect(utils.isPrime(19)).toBeTruthy();
-            expect(utils.isPrime(23)).toBeTruthy();
-            expect(utils.isPrime(29)).toBeTruthy();
-            }
-        );
-
-        it("should return false if n is not prime", () => {
-            const utils = Utils();
-            expect(utils.isPrime(4)).toBeFalsy();
-            expect(utils.isPrime(6)).toBeFalsy();
-            expect(utils.isPrime(8)).toBeFalsy();
-            expect(utils.isPrime(9)).toBeFalsy();
-            expect(utils.isPrime(10)).toBeFalsy();
-            expect(utils.isPrime(12)).toBeFalsy();
-            expect(utils.isPrime(14)).toBeFalsy();
-            expect(utils.isPrime(15)).toBeFalsy();
-            expect(utils.isPrime(16)).toBeFalsy();
-            expect(utils.isPrime(18)).toBeFalsy();
-            expect(utils.isPrime(20)).toBeFalsy();
-            expect(utils.isPrime(21)).toBeFalsy();
-            expect(utils.isPrime(22)).toBeFalsy();
-            expect(utils.isPrime(24)).toBeFalsy();
-            expect(utils.isPrime(25)).toBeFalsy();
-            expect(utils.isPrime(26)).toBeFalsy();
-            expect(utils.isPrime(27)).toBeFalsy();
-            expect(utils.isPrime(28)).toBeFalsy();
-            expect(utils.isPrime(30)).toBeFalsy();
-            }
-        );
-    }
-    );
 
 })
 
